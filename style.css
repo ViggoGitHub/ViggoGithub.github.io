@@ -6,6 +6,7 @@ body{
 
 div{
     align-items: justify;
+    width: 50%;
 }
 
 h1, h2{
