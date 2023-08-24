@@ -3,16 +3,12 @@
 body{
     background-color: rgb(44, 124, 195);
 }
-
+/**
 div{
     width: 60%;
 }
-
+**/
 h1{
     text-align: center;
     text-decoration: underline;
-}
-
-ul li{
-    background-color: black;
 }
