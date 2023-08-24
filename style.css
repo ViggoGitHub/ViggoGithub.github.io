@@ -5,8 +5,7 @@ body{
 }
 
 div{
-    text-align: justify;
-    text-justify: inter-word;
+    align-content: justify;
 }
 
 h1, h2{
