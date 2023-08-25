@@ -17,7 +17,7 @@ h1, h2{
 
 h1{
     background-color: rgb(164, 140, 105);
-    margin: 20px 10px 30px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -29,5 +29,12 @@ p{
 footer{
     background-color: gray;
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    div{
+        width: 80%;
+    }
+    
 }
 
