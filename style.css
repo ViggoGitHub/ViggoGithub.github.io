@@ -5,7 +5,8 @@ body{
 }
 
 div{
-    align-items: justify;
+    align-items: center;
+    margin: 0 auto;
 }
 
 h1, h2{
