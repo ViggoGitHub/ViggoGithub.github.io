@@ -18,12 +18,14 @@ h1, h2{
 h1{
     background-color: rgb(164, 140, 105);
     margin: 20px 10px 30px;
-}
-
-p{
     text-align: center;
 }
 
+/**
+p{
+    text-align: center;
+}
+**/
 
 footer{
     background-color: gray;
