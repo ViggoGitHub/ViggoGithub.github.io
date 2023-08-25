@@ -1,20 +1,31 @@
 @charset "utf-8";
 
 body{
-    background-color: whitesmoke;
+    background-color: rgb(236, 238, 236);
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
 
 nav{
-    background-color:rgb(110, 121, 88);
+    background-color: royalblue;
     width: 100%;
     margin: 0 auto;
 }
 
+ul li{
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+ul li a{
+    color: black;
+    padding: 5px;
+}
+
 div{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -31,16 +42,17 @@ h1{
 }
 
 h2{
-    margin-right: 40%;
+    margin-left: 20%;
 }
 
 p{
-    margin-right: 25%;
+    margin-left: 25%;
 }
 
 footer{
-    background-color: rgb(110, 121, 88);
-    margin-top: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
     text-align: center;
 }
 
