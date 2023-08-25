@@ -21,11 +21,10 @@ h1{
     text-align: center;
 }
 
-/**
+
 p{
-    text-align: center;
+    margin-left: 30%;
 }
-**/
 
 footer{
     background-color: gray;
