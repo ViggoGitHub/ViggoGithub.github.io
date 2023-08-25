@@ -11,10 +11,7 @@ nav{
     margin-top: 0;
 }
 
-div{
-    width: 60%;
-    margin: 0 auto;
-}
+
 
 h1, h2{
     text-decoration: underline;
@@ -34,6 +31,17 @@ h2{
 
 p{
     margin-right: 35%;
+}
+
+.maindiv{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.rightsidebar{
+    float: right;
+    background-color: antiquewhite;
+    width: 100px;
 }
 
 footer{
