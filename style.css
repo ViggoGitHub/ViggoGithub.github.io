@@ -7,7 +7,6 @@ body{
 
 div{
     width: 60%;
-    margin-left: 20%;  
 }
 
 h1, h2{
@@ -21,6 +20,9 @@ h1{
     text-align: center;
 }
 
+h2{
+    margin-left: 20%;
+}
 
 p{
     margin-left: 30%;
