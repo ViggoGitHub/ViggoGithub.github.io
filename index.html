@@ -1,64 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/25fe15c046.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <nav>
-
+    <div class="bg-primary pb-2 text-center">
         <h1>Viggo Sörensen Resume</h1>
-        <ul>
-            <li><a href="#personliginfo">Personlig information</a></li>
-            <li><a href="#arbetslivserfarenheter">Arbetslivserfarenheter</a></li>
-            <li><a href="#utbildning">Utbildning</a></li>
-            <li><a href="#sprakkunskaper">Språkkunskaper</a></li>
-            <li><a href="#meriter">Övriga meriter</a></li>
-            <li><a href="#referenser">Referenser</a></li>
+    </div>
+
+    <nav class="container-fluid mb-5 text-center bg-primary sticky-top">
+        <ul class="btn-group d-inline-flex list-unstyled mt-3">
+            <li><a href="#scrollspyHeading1">Personlig information</a></li>
+            <li><a href="#scrollspyHeading2">Arbetslivserfarenheter</a></li>
+            <li><a href="#scrollspyHeading3">Utbildning</a></li>
+            <li><a href="#scrollspyHeading4">Språkkunskaper</a></li>
+            <li><a href="#scrollspyHeading5">Övriga meriter</a></li>
+            <li><a href="#scrollspyHeading6">Referenser</a></li>
         </ul>
-        
     </nav>
 
-    <div>
-        
-        <h2>Personlig information</h2>
-        <p>Namn: Viggo Sörensen</p>
-        <p>Födelsedatum: 2004-06-24</p>
-        <p>Adress: Järnvägspromenaden 23</p>
-        <p>Postadress: 815 38 Tierp</p><br>
+    <div class="container">
+        <div class="row mx-2">
+            <div class="col-7 border-start">
+                <h2 class="border-start border-primary border-5" id="scrollspyHeading1">Personlig information
+                </h2>
+                <div class="ms-5 me-5 mb-5 row">
+                    <table>
+                        <tr class="table-active">
+                            <td>Namn:</td>
+                            <td class="text-end">Viggo Sörensen</td>
+                        </tr>
+                        <tr>
+                            <td>Adress:</td>
+                            <td class="text-end">Järnvägspromenaden 23</td>
+                        </tr>
+                        <tr>
+                            <td>Postadress:</td>
+                            <td class="text-end">815 38 Tierp</td>
+                        </tr>
+                        <tr>
+                            <td>Telefonnummer:</td>
+                            <td class="text-end">+46(0)767846039</td>
+                        </tr>
+                        <tr>
+                            <td>Mail:</td>
+                            <td class="text-end">viggoks04@gmail.com</td>
+                        </tr>
+                        <tr id="scrollspyHeading2">
+                            <td>Födelsedatum:</td>
+                            <td class="text-end">2004-06-24</td>
+                        </tr>
+                    </table>
+                </div>
 
-        <h2>Arbetslivserfarenheter</h2>
-        <p>Sommarjobb Atlas Copco a 7 veckor - Sommaren 2023</p>
-        <p>Praktik Munters</p><br>
+                <h2 class="border-start border-primary border-5">Arbetslivserfarenheter</h2>
+                <div class="ms-3 me-2 mb-5">
+                    <table>
+                        <tr class="text-underline">
+                            <td>Sommarjobb Atlas Copco a 7 veckor</td>
+                            <td class="text-end">Sommaren 2023</td>
+                        </tr>
+                        <tr>
+                            <td>Feriearbete café norra porten Lövfstabruk</td>
+                            <td class="text-end">Sommaren 2022</td>
+                        </tr>
+                        <tr>
+                            <td>Prao Munters Tobo 2 tillfällen á 1 v</td>
+                            <td class="text-end">Våren & hösten 2022</td>
+                        </tr>
+                        <tr>
+                            <td>Feriearbete Sandvik Coromant 3 v</td>
+                            <td class="text-end">Sommaren 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Prao AB Sandvik Materials Technology, Sandviken 1v</td>
+                            <td class="text-end">Hösten 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Prao Tierps kommun, kultur- och fritidsförvaltningen 1 v</td>
+                            <td class="text-end">Våren 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Feriearbete plocka flyghavre 2 v</td>
+                            <td class="text-end">Sommaren 2018</td>
+                        </tr>
+                        <tr id="scrollspyHeading3">
+                            <td>Prao Svenska kyrkan i Tierp 2 tillfällen á 2 dagar</td>
+                            <td class="text-end">Våren 2016 & våren 2017</td>
+                        </tr>
+                    </table>
+                </div>
 
-        <h2>Utbildning</h2>
-        <p>Gymnasieexamen från Högbergsskolan, teknikprogrammet. 2020-2023</p>
-        <p>Grundskoleexamen från Aspenskolan. 2010-2020</p><br>
+                <h2 class="border-start border-primary border-5">Utbildning</h2>
+                <div class="ms-2 mb-5">
+                    <table>
+                        <tr>
+                            <td>Teknikprogrammet, Högbergsskolan i Tierp</td>
+                            <td>3 år</td>
+                            <td class="text-end">Aug 2020 - Jun 2023</td>
+                        </tr>
+                        <tr id="scrollspyHeading4">
+                            <td>Grundskolan Aspenskolan i Tierp</td>
+                            <td>10 år</td>
+                            <td class="text-end">Aug 2010-Jun 2020</td>
+                        </tr>
+                    </table>
+                </div>
 
-        <h2>Språkkunskaper</h2>
-        <p>Modersmål: Svenska</p>
-        <p>Goda kunskaper i Engelska i både tal och skrift</p><br>
+                <h2 class="border-start border-primary border-5">Språkkunskaper</h2>
+                <div class="ms-5 mb-5">
+                    <p>Modersmål: Svenska</p>
+                    <p>Goda kunskaper i Engelska i både tal och skrift</p>
+                </div>
 
-        <h2>Övriga meriter</h2>
-        <p>Andrefiol i Norra Upplands Kammarorkester 2019 -</p>
-        <p>Scoutledare i Equmeniascout Tierp. 2019 -</p>
-        <p>Innehar körkort: B</p><br>
+                <h2 class="border-start border-primary border-5" id="scrollspyHeading5">Övriga meriter</h2>
+                <div class="ms-5 mb-5">
+                    <p>Scoutledare, Equmeniakyrkans scoutkår i Tierp 2019-</p>
+                    <p>Scoutledare, Equmeniakyrkans scoutkår i Tierp 2019-</p>
+                    <p>Andrefiol i Nordupplands kammarorkester 2019-</p><br>
+                    <p>Innehar körkort: B</p>
+                </div>
 
-        <h2>Referenser</h2><br>
-        <h2>Kodningsportfolio</h2>
-    </div> 
+                <h2 class="border-start border-primary border-5" id="scrollspyHeading6">Referenser</h2>
 
-        
+            </div>
+            <div class="col-5 border-start">
+                <h2 class="border-start border-primary border-5">Kodningsportfolio</h2>
+                <div class="my-4 ms-3">
+                    <h4>Hemsida: Python grunder</h4>
+                    <h4 class="my-4">Glosförhör i Python</h4>
+                    <h4>Sten, sax, påse i Python</h4>
+                    <div class="bg-image hover-zoom">
+                        <img class="w-75 mb-2 hover-zoom" src="img/kod_stp.JPG" alt="Koden till Sten sax påse">
+                    </div>
+                    <img class="w-75" src="img/stp.JPG" alt="Sten, sax, påse">
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <footer>Denigned by &copy; Viggo Sörensen </footer>
-        
-    
+    <footer class="text-center bg-dark text-light mt-5 p-2">
+        <p>Denigned by Viggo Sörensen &copy;
+            <script>document.write(new Date().getFullYear());</script>
+        </p>
+        <div class="container mt-3">
+            <h6>Mina sociala medier:</h6>
+            <a href="https://www.instagram.com/viggo_sorensen04/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1"
+                class="text-light">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="text-light">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="text-light">
+                <i class="fa-brands fa-snapchat"></i>
+            </a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
