@@ -6,7 +6,6 @@ h4 {
     text-decoration: underline;
 }
 
-
 h2 {
     background-color: rgb(217, 230, 235);
 }
@@ -21,4 +20,10 @@ li {
 
 li a {
     color: black;
+}
+
+@media screen and (max-width: 525px) {
+    .adress {
+        margin-left: 1000px;
+    }
 }
