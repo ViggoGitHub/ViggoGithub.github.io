@@ -14,17 +14,17 @@
 
 <body>
 
-    <div class="bg-primary pb-2 container-fluid text-center">
+    <div class="bg-primary pb-2 container-fluid text-center" id="scrollspyHeading1">
         <h1>Viggo Sörensen Resume</h1>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light container-fluid mb-3 pb-1 bg-primary sticky-top">
+    <nav class="container-fluid navbar navbar-expand-lg navbar-light mb-3 pb-1 bg-primary sticky-top">
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
 
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav d-inline-flex list-unstyled mt-3">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav d-inline-flex list-unstyled">
                 <li class="nav-item">
                     <a href="#scrollspyHeading1" class="nav-link active">Personlig information</a>
                 </li>
@@ -51,14 +51,14 @@
 
     <div class="container">
         <div class="row mx-2">
-            <div class="col-7 border-start">
-                <h2 class="border-start border-primary border-5" id="scrollspyHeading1">Personlig information
+            <div class="border-start col-7">
+                <h2 class="border-start border-primary border-5">Personlig information
                 </h2>
-                <div class="ms-3 me-5 mb-5 row">
+                <div class="ms-3 me-5 mb-5">
                     <ul class="list-unstyled text-start">
                         <li class="my-2">
                             Namn:
-                            <span class="text-end">Viggo&nbsp;Sörensen</span>
+                            <span class="float-end">Viggo&nbsp;Sörensen</span>
                         </li>
                         <li class="my-2">
                             Adress:&nbsp;
@@ -126,12 +126,10 @@
                     <table>
                         <tr>
                             <td>Teknikprogrammet, Högbergsskolan i Tierp</td>
-                            <td>3 år</td>
                             <td class="text-end">Aug 2020 - Jun 2023</td>
                         </tr>
                         <tr id="scrollspyHeading4">
                             <td>Grundskolan Aspenskolan i Tierp</td>
-                            <td>10 år</td>
                             <td class="text-end">Aug 2010-Jun 2020</td>
                         </tr>
                     </table>
@@ -152,9 +150,15 @@
                 </div>
 
                 <h2 class="border-start border-primary border-5" id="scrollspyHeading6">Referenser</h2>
-
             </div>
+
             <div class="col-5 border-start">
+                <h2>Viggo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto optio architecto ad eligendi
+                    accusamus nobis vitae quasi necessitatibus quam cumque, fugit odio in facere commodi excepturi illo
+                    blanditiis cum animi.</p>
+
+                <!--
                 <h2 class="border-start border-primary border-5">Kodningsportfolio</h2>
                 <div class="my-4 ms-3">
                     <h4>Hemsida: Python grunder</h4>
@@ -167,7 +171,7 @@
                         <img class="w-100 mb-2 hover-zoom" src="img/kod_stp.JPG" alt="Koden till Sten sax påse">
                         <img class="w-100" src="img/stp.JPG" alt="Sten, sax, påse">
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -189,6 +193,11 @@
             </a>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
