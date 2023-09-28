@@ -4,24 +4,22 @@ h2 {
     background-color: #ecf5fb;
 }
 
-td {
-    padding: 10px;
-}
-
 li {
     padding-right: 10px;
 }
 
-li a {
-    color: black;
+p {
+    text-align: justify;
 }
 
 .bg {
     background-color: #1E4966;
 }
 
+/*
 @media screen and (max-width: 525px) {
     .adress {
         margin-left: 1000px;
     }
 }
+*/
